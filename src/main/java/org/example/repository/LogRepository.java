@@ -1,5 +1,4 @@
 package org.example.repository;
-
 import lombok.extern.java.Log;
 import org.example.model.EmailLog;
 import org.springframework.data.jpa.repository.JpaRepository;
