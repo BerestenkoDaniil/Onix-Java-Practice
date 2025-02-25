@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class CronJob {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
