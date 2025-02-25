@@ -1,42 +1,62 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Compiled class files
+*.class
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Log files
+*.log
+
+# Maven target directory
+/target/
+
+# IntelliJ IDEA project files
+.idea/
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.iws
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse IDE files
 .project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.classpath
+.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# NetBeans IDE files
+/nbproject/
 
-### VS Code ###
+# VS Code files
 .vscode/
 
-### Mac OS ###
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Environment variable files
+.env
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Mac-specific files
+.DS_Store
+
+# Java application-specific files
+*.war
+*.jar
+
+# Spring Boot dev tools restart files
+.spring-boot-devtools.properties
+
+# H2 database files
+*.h2.db
+*.trace.db
+
+# Logs and debug files
+logs/
+*.pid
+*.gz
+
+# Lombok generated annotations
+.lombok/
+
+# Application-specific
+*.out
