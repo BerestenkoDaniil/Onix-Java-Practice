@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 
 @Service
 @RequiredArgsConstructor
+
 public class EmailService {
     private final JavaMailSender mailSender;
     private final UserRepository userRepository;

@@ -9,6 +9,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+
 public class LogService {
     private final LogRepository logRepository;
 
