@@ -5,6 +5,7 @@ import lombok.NonNull;
 import org.antlr.v4.runtime.misc.NotNull;
 
 @Data
+
 public class UserDTO {
     @NonNull
     private Long userId;
